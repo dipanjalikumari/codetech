@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Restaurant Name</title>
+  <link rel="stylesheet" href="resturent.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>D.S.k restaurant</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Restaurant D.s.k</h2>
+      <p>Delicious meals served with love.</p>
+      <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="https://grandbaby-cakes.com/wp-content/uploads/2016/11/buttermilk-fried-chicken-2.jpg" alt="Dish 1">
+          <h3>Dish 1</h3>
+          <p>$12.99</p>
+        </div>
+        <div class="menu-item">
+          <img src="https://www.thespruceeats.com/thmb/wXO0Lsnm5Jknlg-a9KcE1m3nbyg=/3545x2359/filters:fill(auto,1)/easy-crock-pot-chicken-a-la-king-3054883-hero-01-3fdb7e1cbf9b4a0487f5e6cb9a202dfe.jpg" alt="Dish 2">
+          <h3>panir masala</h3>
+          <p>$14.99</p>
+        </div>
+        <div class="menu-item">
+          <img src="https://cafedelites.com/wp-content/uploads/2016/09/Honey-Garlic-Chicken-IMAGE-13.jpg" alt="Dish 2">
+          <h3>chiken</h3>
+          <p>$18.99</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a family-owned restaurant serving the finest dishes made from fresh ingredients. Our goal is to provide a warm and welcoming experience for every guest.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Restaurant D.s.k. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
